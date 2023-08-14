@@ -1,0 +1,11 @@
+# Go to folder ChatGPT and create virtual env in it
+$ cd azure-ml-mlops-end-to-end
+
+$ /usr/local/bin/python3 -m venv .venv
+$ source .venv/bin/activate
+
+# Check which packages are installed in local env
+$ pip freeze
+
+# Install the needed packages
+$ pip install -r requirements.txt
